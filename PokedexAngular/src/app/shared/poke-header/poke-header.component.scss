@@ -1,0 +1,12 @@
+@import '../../../config-scss/rem-calc.scss';
+
+:host {
+	header {
+		display: flex; // item em linha
+		justify-content: center; //alinhamento ao centro
+		align-items: center;
+		
+		// função css para calcular e deixar responcivo o header
+		padding: rem-calc(40) 0;
+	}
+}
